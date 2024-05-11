@@ -17,8 +17,7 @@ env.allowLocalModels = false;
 // Proxy the WASM backend to prevent the UI from freezing
 env.backends.onnx.wasm.proxy = true;
 
-env.backends.onnx.wasm.wasmPaths = "https://cdn.jsdelivr.net/npm/onnxruntime-web@1.17.1/dist/"
-env.backends.onnx.wasm.numThreads = 1
+
 
 const EXAMPLE_URL = 'https://images.pexels.com/photos/5965592/pexels-photo-5965592.jpeg?auto=compress&cs=tinysrgb&w=1024';
 
